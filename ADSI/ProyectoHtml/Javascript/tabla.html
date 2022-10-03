@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="=id=edge">
+        <meta name="viewreport" content="witdh=device-witdh, initial-scale:1-0">
+        <title>Tabla Js</title>
+    </head>
+    <body>
+
+        <h2>Tablas DOM</h2>
+
+        <table border="1" width="50%" id="tablaProductos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Código</th>
+                    <th>Precio</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Perro</td>
+                    <td>33</td>
+                    <td>$220</td>
+                    <td><button onclick="Eliminar()">Eliminar</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="agregar" onclick="Agregar()">Agregar</button>
+        <button id="eliminar" onclick="Eliminar()">Eliminar</button>
+    </body>
+    <script src="tabla.js"></script>
+</html>

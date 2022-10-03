@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="">
+    <title>Área geométrica</title>
+</head>
+<body>
+    <div class="container p-3 my-5 bg-primary">
+        <form action="logica.php" method="POST">
+            <div class="container p-2 form-inline">
+                <label for="int">Número 1:</label>
+                <input type="text" class="form-control" name="number-1" placeholder="Enter number">
+            </div>
+            <div class="container p-2 form-inline">
+                <label for="int">Número 2:</label>
+                <input type="text" class="form-control" name="number-2" placeholder="Enter number">
+            </div>
+            <div class="container p-2 form-inline">
+                <label for="select">Opciones:</label>
+                <div>
+                    <select name="geometria" id="geometria" class="form-control">
+                        <option value="Área Cuadrado">Área Cuadrado</option>
+                        <option value="Área Triángulo">Área Triángulo   </option>
+                        <option value="Área Rectángulo">Área Rectángulo</option>
+                        <option value="Área Círculo">Área Círculo</option>
+                    </select>
+            </div>
+            <div class="container p-2 my-4 form-inline">
+                <input type="submit"  value="Calcular" name="submit" class="btn btn-success">
+            </div>            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="id=edge">
+    <link rel="stylesheet" type="text/css" href="EstiloBiblioteca.css">
+    <title>Registro Biblioteca</title>
+</head>
+
+<body>
+       
+    <form class="form">
+        <div class="form-header">
+            <h1 class="form-title">Registro Biblioteca</h1>
+        </div>
+        <label for="tipo documento" class="form-label"> Tipo documento:</label>
+        <select name="Selector" class="form-selector">
+            <option value="Tarjeta Identidad">Tarjeta de identidad</option>
+            <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+            <option value="Pasaporte">Pasaporte</option>
+        </select>
+        <label for="documento" class="form-label">Digite su documento:</label>
+        <input type="text" id="documento" class="form-input" placeholder="Escriba su documento">
+        <label for="carrera" class="form-label">Digite su carrera:</label>
+        <input type="text" id="carrera" class="form-input" placeholder="Escriba su carrera">
+        <label for="libro" class="form-label">Registro del libro:</label>
+        <input type="text" id="libro" class="form-input" placeholder="Escriba el registro">
+        <label for="correo" class="form-label">Correo electrónico:</label>
+        <input type="gmail"class="form-input" id="correo" placeholder="@gmail.com">
+        <label for="fecha" class="form-label">Fecha de salida:</label>
+        <input type="date" name="datos" class="form-date" id="fecha">
+        <input type="submit" value="Guardar datos">
+
+    </form>
+    <div>
+        <img src="https://www.lifeder.com/wp-content/uploads/2014/09/frase-en-libro.jpg" alt="Biblioteca">
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+    <title>Pasajes</title>
+</head>
+
+<body>
+    <img src="https://www.autoboysa.com.co/images/logo-1.png" class="rounded size-4 col-4" alt="Cinque Terre">
+    <div class="p-4 col-9 form-inlinek">
+        <table class="col-5 table-striped inline-block">
+            <thead>
+                <th>Destino</th>
+                <th>Valor Individual</th>
+                <thead>
+                <tbody>
+                    <tr>
+                        <td>Duitama</td>
+                        <td>$ 2000</td>
+                    </tr>
+                    <tr>
+                        <td>Paipa</td>
+                        <td>$ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>Tunja</td>
+                        <td>$ 6000</td>
+                    </tr>
+                    <tr>
+                        <td>Bogotá</td>
+                        <td>$ 22000</td>
+                    </tr>
+                    <tr>
+                        <td>Bucaramanga</td>
+                        <td>$ 34000</td>
+                    </tr>
+                    <tr>
+                        <td>Tame</td>
+                        <td>$ 38000</td>
+                    </tr>
+                    <tr>
+                        <td>Saravena</td>
+                        <td>$ 40000</td>
+                    </tr>
+                    <tr>
+                        <td>Arauca</td>
+                        <td>$ 47000</td>
+                    </tr>
+                </tbody>
+        </table>
+    </div>
+    <div class="col-9 p-3 form-check">
+        <form action="Destino.php" method="POST" class="form-inline col-5">
+            <label>Destino:</label>
+            <select name="destino" id="destino">
+                <option value="Duitama">Duitama</option>
+                    <option value="Paipa">Paipa</option>
+                    <option value="Tunja">Tunja</option>
+                    <option value="Bogota">Bogotá</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Tame">Tame</option>
+                <option value="Saravena">Saravena</option>
+                <option value="Arauca">Arauca</option>
+            </select>
+            <label> Cantidad de pasajes:</label>
+            <select name="pasajes" class="form-control-sm">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <input class="my-2 btn btn-success" type="submit" value="Facturar" name="facturar">
+        </form>
+    </div>
+</body>
+
+</html>

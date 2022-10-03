@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Café Internet</title>
+</head>
+<body>
+    <h1 class="container">CAFÉ INTERNET</h1>
+    
+    <form action="Internet.php" method="POST">
+        <div class="container bg-danger text-white">
+            <div class="container p-3 my-1 inline-block">
+                <label>Hora de ingreso:</label>
+                <input type="time" name="entrada" id="time">
+            </div>
+            <div class="container p-3 my-1 inline-block">
+                <label>Hora de salida:</label>
+                <input type="time" name="salida" id="time">
+            </div>
+            <input class="my-2 btn btn-success" type="submit" value="Enviar" name="enviar">
+        </div>
+    </form>
+</body>
+</html>

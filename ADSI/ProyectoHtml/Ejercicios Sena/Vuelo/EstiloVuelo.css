@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background: url(https://images.unsplash.com/photo-1571203191207-c7dc52f66d7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-size: cover; /*específica el tamaño de las imágenes de fondo*/
+    -webkit-background-size: cover; /*Determina el movimento de las imágenes, el fixed mantiene imagen fija*/
+    background-attachment: fixed;
+
+}
+header nav {
+    background-color: rgba(41, 167, 156, 0.568);
+    display: block;
+    width: 67%;
+    margin: 30px auto;
+    overflow: hidden; /*Limpia el contenedor header nav para que no afecte el float:left */
+}
+  header nav ul {
+    list-style: none; /*quitar viñetas*/
+}
+  header nav ul li {
+    float: left;
+}
+  header nav ul li a {
+    display: block;
+    padding: 9px 41px;
+    color: aliceblue;
+    text-decoration: none;
+}
+  header nav ul li a:hover {
+    background-color: rgba(40, 211, 40, 0.753);
+    border-radius: 5px;
+    border-bottom: 4px solid rgba(19, 26, 19, 0.753);
+}
+h1{
+    position: relative;
+    font-size: 30px;
+    left:17%;
+    top: 20%;
+}
+.bloque{
+    background-color: rgba(41, 167, 156, 0.568);
+    display: block;
+    width: 66%;
+    margin: 40px auto;
+    padding: 10px;
+}
+div div label{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    margin: .5% 1%; 
+    padding: 3px 4%;
+}
+input[type="text"]{
+    margin: 0% 2%;
+    padding:.4%;
+    font-size: 12px;    
+}
+input[type="email"]{
+    margin: 0% 3.7%;
+    padding: 0.4%;
+    font-size: 13px;
+}
+input[type="number"]{
+    margin: 0% 5.3%;
+    padding:.5%;
+    font-size: 10px;
+}
+.div-inf{
+    background-color: rgba(41, 167, 156, 0.568);
+    display: block;
+    margin: 30px auto;
+    width: 66%;
+}
+.div-inf label{
+    color: aliceblue;
+    display: block;
+    margin: 0% 2%;
+    padding: 1%;
+}
+.button{
+    display: block;
+    width: 66%;
+    margin: 40px auto;
+    padding: 10px;
+}
+button{
+    color: aliceblue;
+    border: none;
+    border: 2px solid rgba(8, 223, 252, 0.986);
+    padding: 1%;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(41, 167, 157);
+}
+button:hover{
+    background-color: rgba(40, 211, 40, 0.753);
+}

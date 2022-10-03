@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="contariner pt-3 p-4">
+        <h1>Conversor de unidades</h1>
+        <form action="conversor.php" method="POST"> 
+        <input class="form-control" type="text" name="convertir" id="convertir" placeholder="Digite metros a convertir">
+        <select name="unidad" id="unidad" class="form-control my-2">
+            <option value="cm">A centímetros</option>
+            <option value="km">A kilometros</option>
+            <option value="pie">A pies</option>
+            <option value="inch">A pulgadas</option>
+        </select>
+        <input class="form-control btn btn-warning" type="submit" name="enviar" value="Enviar">            
+        </form>
+    </div>
+
+
+</body>
+</html>

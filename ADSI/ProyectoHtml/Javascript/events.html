@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href=''>
+    <title>Events</title>
+</head>
+<body>
+
+    <form action="https://www.google.com" id="formulario">
+
+        <div>
+            Nombre:
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <label id="lnombre"></label>
+        </div>
+
+        <div>
+            <label for="">Celular</label>
+            <input type="number" id="cel">
+        </div>
+        <div>
+            Email:
+            <input type="email" id="email">
+            <label id="lemail"></label>
+        </div>
+
+        <div>
+            <label for="">Es estudiante?</label>
+            <input type="checkbox" id="estudiante">
+        </div>
+
+        <div style="display:none" id="div-nivel">
+            Nivel:
+            <select id="nivel">
+                <option value="">Selecciona esa cagaa'</option>
+                <option value="Primaria">primaria</option>
+                <option value="Secundaria">secundaria</option>
+                <option value="Universidad">Universidad</option>
+            </select>
+        </div>
+        <br>
+        <button id="btn">Change Font</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+<script src="events.js"></script>
+</html>

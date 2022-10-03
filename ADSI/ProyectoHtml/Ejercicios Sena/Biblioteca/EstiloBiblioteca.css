@@ -1,0 +1,98 @@
+*{ margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    background:url(imagen.jpg);
+    -webkit-background-size:cover;/*El tamaño de la imagen de fondo es igual al tamaño de la imagen original. */
+    background-size: cover;/*específica el tamaño de las imágenes de fondo*/
+    background-attachment: fixed; /*Determina el movimento de las imágenes, el fixed mantiene imagen fija*/
+    margin: 2%;
+    
+}
+.form{
+    background: rgba(36, 11, 11, 0.336);
+    border-radius: 8%;
+    margin: 0% 50% 0% 0%; /*márgenes de la caja con respecto a las demás*/
+    padding: 5% 5% 5% 5%; /*márgenes entre la caja y el texto*/
+    float: right;
+    
+}
+label{
+    color: rgb(243, 237, 237);
+    font-size: 25px;
+    position: relative;
+    margin: 1%;
+    padding: 2%;
+    font-weight: normal;
+    font-family: monospace;
+    text-align: center;
+}
+.form .form-header .form-title{
+    color: rgb(243, 237, 237);
+    font-weight: normal;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.form-date, input{
+    background:rgba(182, 192, 94, 0.596);
+    border: none;
+    outline: none; /*quia el resaltado azul de los bordes cuando entras en el estado focus*/
+    border-bottom: 2px solid rgba(8, 8, 6, 0.863);/*Define el borde inferior*/
+    width: 100%;
+    padding: 9px;
+    margin: 2%;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 7px; /*Define el borde de cada esquina*/
+}
+input[type="submit"]{
+    font-family: Roboto;
+    border: none;
+    color: rgb(243, 237, 237);
+    background: rgba(182, 192, 94, 0.596);
+    width: 100%;
+    padding: 15px 0;
+    font-size: 25px;
+    border-radius: 7px;
+    margin:2%;
+    padding: 4%; 
+    
+}
+input[type="submit"]:hover{
+    background: #9c3;
+    cursor: pointer;
+
+}
+input[type="submit"]:focus{
+    background: rgba(204, 102, 19,0.7)
+    
+
+}
+input:focus{
+    border:2px solid #444444;
+}
+.form .form-selector{
+    width: 103%;
+    border: none;
+    outline: none;
+    padding: 9px;
+    margin: 2%;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgba(182, 192, 94, 0.596);
+    border-bottom: 2px solid rgba(8, 8, 6, 0.863);
+    font-family: Roboto;
+    
+}
+img{
+    border: none;
+    position: absolute;
+    border-radius: 7px;
+    margin: 5.7% 70% 0% 55%;    
+}
+input{
+    border-bottom: 2px solid rgba(8, 8, 6, 0.863);
+}

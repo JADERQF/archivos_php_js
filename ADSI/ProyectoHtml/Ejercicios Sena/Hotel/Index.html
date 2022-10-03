@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="id=edge">
+    <link href="Estilos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap">
+    <!-- Código anterior agrega un tipo de letra desde un enlace -->
+    <title>Registro Hotel</title>
+</head>
+
+<body>
+    <div class="parrafo">
+        <p>
+        <h1>Datos de la reserva</h1>
+        <div class="form-div">
+            Habitación, cama: 1 doble.
+        </div>
+        <div class="form-div">
+            <label for="entrada" class="form-label"> Registro de entrada:</label>
+            <input type="date" n class="ame=" datos" class="form-input" id="entrada">
+        </div>
+        <div class="form-div">
+            <label for="salida" class="form-label"> Registro de salida:</label>
+            <input type="date" name="datos" class="form-input" id="salida">
+        </div>
+        <div class="form-div">
+            Habitacion(es): 1 <br>
+            Lugar: bogotá D.C.
+        </div>
+        </p>
+    </div>
+    <div class="div-img">
+        <img title="description"
+            src="https://images.unsplash.com/photo-1572297258415-b9cc3cc5bb71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80">
+    </div>
+    <form class="form">
+        <div class="div-form">
+            <h3>Datos personales</h3>
+            <div class="grupo">
+                <label class="nombre">Nombre</label>
+                <input type="text" class="form-input">
+            </div>
+            <div class="grupo">
+                <label>Apellido</label>
+                <input type="text" class="form-input">
+            </div>
+            <div class="grupo">
+                <label>Correo electrónico</label>
+                <input type="email" class="form-input">
+            </div>
+            <div class="grupo">
+                <label>País/región</label>
+                <input type="text" class="form-input">
+            </div>
+        </div>
+        <button type="submit" class="input">Guardar datos</button>
+        </div>
+        </div>
+    </form>
+    <form class="form">
+        <div class="div-form">
+            <h3>Medio de pago</h3>
+            <div class="grupo2">
+                <input type="radio" name="pago" id="efectivo" class="radio-input">
+                <label for="efectivo" class="label">Efectivo</label>
+            </div>
+            <div class="grupo2">
+               <input type="radio" name="pago" id="tarjeta" class="radio-input">
+               <label for="tarjeta" class="label">Tarjerta de crédito/débito</label>
+            </div>
+            <div class="grupo2">
+                <label for="">Número de tarjeta crédito/débito</label>
+                <input type="number" class="form-input">
+            </div>
+            <div class="grupo2">
+                Mes de vencimiento
+                <input type="date" class="form-input">
+            </div>
+            <button type="submit" class="input">Guardar datos</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

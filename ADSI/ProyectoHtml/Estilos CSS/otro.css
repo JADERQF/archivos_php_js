@@ -1,0 +1,29 @@
+body{
+    background-color: white);
+}
+h1{
+    color: #ff0000;
+    text-align: left;
+    text-decoration:underline;
+}
+h2{
+    color:#dd0000;
+text-align:center;
+text-decoration:underline;
+}
+.resaltado
+{
+color:#000000;
+background-color:#ffff00; /*Aplicar esta regla a los elementos h4*/
+font-style:italic;
+}
+.pagina{
+    font-size: 25px;
+    background-color:rosybrown;
+    border-width: 3px;
+    border-color:#BDBDBD;;
+    border-style: hidden;
+    color: rgb(53, 131, 44)
+}
+
+

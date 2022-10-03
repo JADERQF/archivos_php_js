@@ -1,0 +1,55 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{ /* estilos al body*/
+    font-family: 'Aleo', serif; 
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center; /*texto centrado*/
+    padding: 6%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input[type="text"], input[type="password"]{ /*inputs de text y password*/
+    padding: 2.4%;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid rgba(177, 151, 151, 0.603);
+    margin: 15px auto;
+}
+div{ /* Agregamos padding y margin a los div*/
+    padding: 10px;
+    margin: 3.5%;
+}
+input[type="submit"]{ /* Agregamos estilos a los botones de envío*/
+    color: #fff;
+    background: #0098cb;
+    width: 48%;
+    padding: 8px;
+    margin-right: 2%;
+    border: 0;
+    cursor:pointer;
+    border-radius: 23px;
+}
+    input[type="submit"]:hover{ /* Agregamos color para cuando pasamos el mouse por el boton type submit*/
+        background-color: #00b8eb
+    }
+.div-datos{ /* estilos a los datos para diferenciarlos de input y del enlace create an account*/
+    background-color:beige;
+    border: 1px solid rgba(241, 238, 238, 0.603);
+    border-radius: 5px;
+}
+.div-submit{ /* estilos a submit y al create an account*/
+    border: 1px solid rgba(241, 238, 238, 0.603);
+    border-radius: 6px;
+    
+}
+form{ /* Ancho del formulario*/
+    width: 30%;
+    
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: lemonchiffon;
+    width: 100%;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 3px;
+    /* box-shadow: 5px 5px 0px #ffffff; */
+    padding: 10px;
+    border: 3px solid #00ff00;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: inside;/*Posición de las viñetas*/
+}
+.menu{
+    list-style: none; /*quita las viñetas*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+}
+.menu li a:hover{
+    background: #cccccc;
+    color: 000;
+}
+form{
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #cccccc;
+}
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+    max-height: 500px;
+    min-height: 100px;
+}
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus{
+    border:2px solid #444444;
+}
+input[type="submit"]{
+    margin-bottom: 0;
+    color: #fff;
+    background: #1668c4;
+    border: none;
+    
+
+    
+}
+input[type="submit"]:hover{
+    background: #9c3;
+    cursor: pointer;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href=''>
+    <title>cookies, localStorage, sessionStorage</title>
+</head>
+<body>
+    <!-- cookies, localStorage, sessionStorage -->
+
+    <button id="crear">Crear</button>
+    <button id="mostrar">Mostrar</button>
+    <button id="modificar">Modificar</button>
+    <button id="eliminar">Eliminar</button>
+
+</body>
+
+<script>
+    document.getElementById('crear').addEventListener('click', crear);
+    document.getElementById('mostrar').addEventListener('click', mostrar);
+    document.getElementById('modificar').addEventListener('click', modificar);
+    document.getElementById('eliminar').addEventListener('click', eliminar);
+
+    function crear(){
+    //Almacenamiento localStorage es hasta que se limpie el caché y el sessionStorage es mientras el navegador o pestaña este abierta
+        // localStorage.setItem('usuario', 'perro')
+        // sessionStorage.setItem('usuario', 'perrroSession')
+
+        document.cookie = 'usuario=Tarta; expires = Thu, 22 Jul 2021 12:00 UTC; path=/;';
+    }
+    function mostrar(){
+        // alert(localStorage.getItem('usuario \n') + sessionStorage.getItem('usuario'));
+        alert(document.cookie)
+    }
+    function modificar(){
+        // localStorage.setItem('usuario', 'gato')
+        // sessionStorage.setItem('usuario', 'gatoSession')
+
+        //no me sirvió las cookies
+        document.cookie = 'usuario = Perro3; expires = Thu, 22 Jul 2021 12:00 UTC; path=/;';
+    }
+    function eliminar(){
+        // localStorage.removeItem('usuario')
+        // sessionStorage.removeItem('usuario')
+        document.cookie = 'usuario = Perro3; expires = Thu, 22 Jul 2020 12:00 UTC; path=/;';
+
+
+    }
+</script>
+</html>
